@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Belajar Bootstrap</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body id="page-top">
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top">BELAJAR WEB</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tutorial</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML</a></li>
+                <li><a class="dropdown-item" href="#">CSS</a></li>
+                <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                <li><a class="dropdown-item" href="#">PHP</a></li>
+                <li><a class="dropdown-item" href="#">MySQL</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Propil">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Hubungi kami">Hubungi Kami</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <br><br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col align-self-center">
+          <h1 style="font-family: 'lobster', cursive;">Hola! </br> Selamat Datang Di diskusi web</h1>
+          <p class="mt-3 mb-5 my-2">
+            <em>mari diskusi dan belajar membuat web dengan mudah</em> 
+          </p>
+          <a class="btn btn-success" href="#" role="button">Daftar</a>
+          <a class="btn btn-success" href="#" role="button">Reset</a>
+        </div> 
+        <div class="col d-none d-md-block d-lg-block d-xl-block">
+          <img src="gambar.jpeg" alt="" width="300px">
+        </div>
+      </div>
+    </div>
+  </section>    
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Berita & Informasi</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-6 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Apa itu Bootstrap?</h5>
+            <p class="card-text">
+              Bootstrap adalah framework CSS populer yang digunakan untuk membuat tampilan web modern, responsif, dan cepat. 
+              Dengan sistem grid, komponen siap pakai, serta dokumentasi yang lengkap, Bootstrap membantu developer membangun website lebih mudah tanpa harus menulis banyak CSS dari awal.
+            </p>
+            <a href="https://getbootstrap.com/" target="_blank" class="btn btn-success">Pelajari Lebih Lanjut</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Tips & Update Terbaru Bootstrap</h5>
+            <p class="card-text">
+              1. Gunakan <code>container</code> untuk mengatur lebar konten.<br>
+              2. Manfaatkan class utilitas seperti <code>mt-3</code>, <code>mb-4</code> untuk memberi jarak.<br>
+              3. Coba komponen baru di Bootstrap 5 seperti <strong>accordion</strong>, <strong>offcanvas</strong>, dan <strong>modal</strong> yang lebih ringan.<br><br>
+              Versi terbaru Bootstrap (v5.2) menghadirkan peningkatan performa, sistem warna baru berbasis CSS variables, serta dokumentasi yang lebih interaktif.
+            </p>
+            <a href="https://getbootstrap.com/docs/5.2/getting-started/introduction/" target="_blank" class="btn btn-success">Cek Update</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </section>
+
+  <script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
